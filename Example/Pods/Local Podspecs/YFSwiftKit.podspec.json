@@ -1,0 +1,22 @@
+{
+  "name": "YFSwiftKit",
+  "version": "0.1.0",
+  "summary": "A short description of YFSwiftKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yonfong/YFSwiftKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yonfong": "yongfongzhang@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yonfong/YFSwiftKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YFSwiftKit/Classes/**/*"
+}

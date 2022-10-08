@@ -1,0 +1,16 @@
+PODS:
+  - YFSwiftKit (0.1.0)
+
+DEPENDENCIES:
+  - YFSwiftKit (from `../`)
+
+EXTERNAL SOURCES:
+  YFSwiftKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YFSwiftKit: 7a711e6f31be51af4cc5e37fddbc7fe5cfaffc86
+
+PODFILE CHECKSUM: 30a8321490e414a8d9636295d2376fffbea11f2b
+
+COCOAPODS: 1.11.3
