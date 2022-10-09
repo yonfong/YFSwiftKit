@@ -46,7 +46,7 @@ public extension UIColor {
         return cache
     }()
         
-    class func hexColor(hexString: String, alpha: CGFloat = 1.0) -> UIColor {
+    class func hexColor(_ hexString: String, alpha: CGFloat = 1.0) -> UIColor {
         
         var resultHex = hexString
         
