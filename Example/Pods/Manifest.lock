@@ -1,5 +1,7 @@
 PODS:
-  - YFSwiftKit (0.1.0)
+  - YFSwiftKit (0.2.0):
+    - YFSwiftKit/SwiftKit (= 0.2.0)
+  - YFSwiftKit/SwiftKit (0.2.0)
 
 DEPENDENCIES:
   - YFSwiftKit (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YFSwiftKit: 7a711e6f31be51af4cc5e37fddbc7fe5cfaffc86
+  YFSwiftKit: 29d6da71157ac30955fdd146c73a8d87c8b80120
 
-PODFILE CHECKSUM: 30a8321490e414a8d9636295d2376fffbea11f2b
+PODFILE CHECKSUM: 8b809751174ebe86b7e7c7a4b1328e2cb1a282d7
 
 COCOAPODS: 1.11.3

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YFSwiftKit'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'YFSwiftKit: a collection of useful swift extension'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'YFSwiftKit/Classes/**/*'
-
-
+  s.default_subspec = 'SwiftKit'
+  
+  # YFSwiftKit
+  s.subspec 'SwiftKit' do |swiftKit|
+    swiftKit.source_files = 'YFSwiftKit/Classes/**/*'
+  end
+  
   # Define
   s.subspec 'Define' do |define|
     define.source_files = 'YFSwiftKit/Classes/Define/**/*'
