@@ -80,6 +80,14 @@ public struct SwiftyDefine {
             return UIScreen.main.bounds.size
         }
         
+        public static var sizeScale: CGFloat {
+            return UIScreen.main.scale
+        }
+        
+        public static var pixelLineHeight: CGFloat {
+            return 1.0/sizeScale
+        }
+        
         public static var navigationHeight: CGFloat {
             return isIphoneXSeries == true ? 88 : 64
         }
