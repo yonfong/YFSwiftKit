@@ -28,7 +28,7 @@ public extension UITableView {
 }
 
 // MARK: - UITableViewHeaderFooterView
-extension UITableView {
+public extension UITableView {
     func registerHeaderFooterView<T:UITableViewHeaderFooterView>(_ type: T.Type, identifier: String? = nil) {
         let identifier = identifier ?? String(describing: T.self)
         register(type, forHeaderFooterViewReuseIdentifier: identifier)

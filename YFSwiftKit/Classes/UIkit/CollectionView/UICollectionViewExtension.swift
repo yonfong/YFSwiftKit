@@ -28,7 +28,7 @@ public extension UICollectionView {
 
 
 // MARK: - UICollectionReusableView
-extension UICollectionView {
+public extension UICollectionView {
     func registerSupplementary<T:UICollectionReusableView>(_ type: T.Type, kind: String, identifier: String? = nil) {
         let identifier = identifier ?? String(describing: T.self)
         register(type, forSupplementaryViewOfKind: kind, withReuseIdentifier: identifier)
