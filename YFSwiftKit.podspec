@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YFSwiftKit'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'YFSwiftKit: a collection of useful swift extension'
 
 # This description is used to generate tags and improve search results.
