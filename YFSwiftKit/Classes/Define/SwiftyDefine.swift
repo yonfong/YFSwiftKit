@@ -108,6 +108,14 @@ public struct SwiftyDefine {
             return UIDevice.current.name
         }
         
+        public static var systemName: String {
+            return UIDevice.current.systemName
+        }
+        
+        public static var systemVersion: String {
+            return UIDevice.current.systemVersion
+        }
+        
         /// isSimulator
         public static var isSimulator: Bool {
 #if arch(i386) || arch(x86_64)
